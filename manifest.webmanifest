@@ -1,0 +1,89 @@
+{
+  "id": "./",
+  "name": "VoiceOver Studio by Saiful Arif",
+  "short_name": "VoiceOver",
+  "description": "Voice over Gemini TTS dengan 30 suara, editor audio, dan buang jeda otomatis. by: Saiful Arif",
+  "lang": "id",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#EEF5FF",
+  "theme_color": "#1F6FEB",
+  "categories": [
+    "productivity",
+    "multimedia",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Studio Voice Over",
+      "short_name": "Studio",
+      "url": "./index.html#studio",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Bedah YouTube",
+      "short_name": "Bedah YT",
+      "url": "./index.html#yt",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Transkrip Audio",
+      "short_name": "Transkrip",
+      "url": "./index.html#tr",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Editor Audio",
+      "short_name": "Editor",
+      "url": "./index.html#editor",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
